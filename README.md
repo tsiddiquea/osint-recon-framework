@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Recon Automation Tool is a Python-based cybersecurity reconnaissance framework designed to automate the initial intelligence-gathering phase of security assessments and penetration testing workflows.
+The Osint Recon Framework is a Python-based cybersecurity reconnaissance framework designed to automate the initial intelligence-gathering phase of security assessments and penetration testing workflows.
 
 This project demonstrates how automated scanning techniques can be integrated into a structured pipeline to efficiently map the external attack surface of a target domain.
 
