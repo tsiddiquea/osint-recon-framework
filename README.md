@@ -1,24 +1,29 @@
-# Recon Automation Tool
+# Osint Recon Framework
 
 ## Overview
 
-The Recon Automation Tool is a Python-based cybersecurity reconnaissance framework designed to automate the process of external attack surface discovery.
+The Recon Automation Tool is a Python-based cybersecurity reconnaissance framework designed to automate the initial intelligence-gathering phase of security assessments and penetration testing workflows.
 
-This project simulates real-world penetration testing reconnaissance phases including subdomain enumeration, service detection, directory probing, and structured intelligence reporting.
+This project demonstrates how automated scanning techniques can be integrated into a structured pipeline to efficiently map the external attack surface of a target domain.
 
-The tool demonstrates how security analysts and ethical hackers gather preliminary information about a target environment before performing deeper security assessments.
+By combining network probing, HTTP analysis, DNS enumeration, and directory discovery mechanisms, the tool simulates real-world reconnaissance methodologies used in professional cybersecurity operations.
 
-## Key Features
+The system emphasizes defensive security awareness, structured data collection, and report generation for analytical review.
 
-* Automated subdomain enumeration using DNS resolution
-* Detection of live hosts through HTTP service validation
-* Fast scanning of commonly exposed network ports
-* Directory and endpoint discovery using customizable wordlists
-* Multithreaded scanning for improved performance
-* Structured report generation in both TXT and JSON formats
-* Modular architecture for easy extension and experimentation
-* Lightweight design suitable for lab and research environments
 
+## Core Capabilities
+
+The framework performs multi-stage reconnaissance tasks including:
+
+* Automated subdomain enumeration using wordlist-driven DNS resolution
+* Identification of live hosts through HTTP service verification
+* Network port scanning across commonly targeted service ports
+* Discovery of exposed directories and hidden endpoints
+* Concurrent scanning for improved efficiency
+* Structured generation of reconnaissance reports in both text and JSON formats
+* Modular architecture allowing future integration of additional reconnaissance modules
+
+This design mirrors reconnaissance workflows followed during vulnerability assessments and red-team exercises.
 
 ## Project Structure
 ```
@@ -90,43 +95,46 @@ example.com_recon_report.txt
 example.com_recon_report.json
 ```
 
+## Performance Characteristics
 
-## Performance
+* Lightweight implementation optimized for local execution
+* Parallel host verification using thread pooling
+* Fast socket-based port probing
+* Minimal system resource utilization
+* Scalable architecture suitable for expanding reconnaissance datasets
 
-* Efficient concurrent host verification
-* Low-latency socket scanning operations
-* Minimal memory footprint
-* Scalable design for larger reconnaissance wordlists
-* Optimized for fast local execution
+
+## Security & Ethical Considerations
+
+This tool is developed strictly for:
+
+* Cybersecurity learning and research
+* Defensive security simulations
+* Authorized penetration testing environments
+* Academic demonstrations of reconnaissance methodologies
+
+Unauthorized scanning or misuse against systems without explicit permission is strongly discouraged.
+
 
 ## Learning Outcomes
 
-This project demonstrates practical cybersecurity engineering skills such as:
+Through the development and use of this project, the following cybersecurity competencies are demonstrated:
 
-* Automated reconnaissance workflow development
-* Network scanning and socket programming
-* Web exposure detection techniques
-* Multithreaded security tool design
-* Security data aggregation and reporting
-* Attack surface mapping methodologies
-
-
-## Security & Ethical Use
-
-This tool is intended strictly for:
-
-* Cybersecurity learning and experimentation
-* Authorized penetration testing labs
-* Academic research and security demonstrations
-
-Do not scan systems without proper permission.
+* Practical reconnaissance automation design
+* Understanding of network service exposure risks
+* Web attack surface discovery techniques
+* Secure software structuring for offensive security tooling
+* Data analysis and report generation for security intelligence
+* Modular cybersecurity tool engineering
 
 
 ## Author
 
-Developed as part of hands-on cybersecurity research focusing on reconnaissance automation and offensive security tooling.
+Developed as part of a hands-on cybersecurity engineering initiative focused on reconnaissance automation, secure coding practices, and real-world defensive security awareness.
 
 
 ## License
 
-This project is released for educational use and research purposes.
+This project is released for educational and research purposes only.
+Users must ensure responsible usage within authorized and ethical cybersecurity contexts.
+
