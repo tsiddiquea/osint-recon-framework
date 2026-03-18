@@ -1,0 +1,10 @@
+www
+mail
+dev
+admin
+staging
+api
+test
+portal
+blog
+shop

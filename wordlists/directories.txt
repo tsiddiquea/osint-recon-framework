@@ -1,0 +1,8 @@
+admin
+backup
+dashboard
+config
+api
+uploads
+logs
+db
