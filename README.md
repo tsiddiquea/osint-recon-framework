@@ -47,7 +47,7 @@ recon-tool/
 
 1. Clone the repository
 ```
-git clone https://github.com/Tahsina-Siddiquea/recon-tool.git
+git clone https://github.com/tsiddiquea/recon-tool.git
 cd recon-tool
 ```
 2. Install dependencies
